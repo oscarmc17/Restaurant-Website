@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu-wrapper {
+  height: 150px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu-wrapper .rest-name {
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+}
+
+.menu-wrapper .nav-link {
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.menu-wrapper .reserv {
+  color: #a8a6a1;
+  border: 2px solid #a8a6a1;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.menu-wrapper .reserv:hover {
+  color: white;
+  background-color: #a8a6a1;
+}
+
+.main-pic {
+  width: 100%;
+  padding: 0 20px;
+  height: 75vh;
+}
+
+.main-paragraph {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 150px 35px;
+}
+
+.dish-img {
+  height: 400px;
+  width: 550px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-btt {
+  font-size: 65px;
+  color: #a8a6a1;
+  padding-left: 50px;
+}
+
+.contact-btt:hover {
+  text-decoration: none;
+  opacity: .7;
+  color: #a8a6a1;
+}
+
+.drink-img {
+  height: 650px;
+  width: 450px;
+  float: right;
+  padding-right: 50px;
+}
+
+.desserts-btt {
+  font-size: 65px;
+  color: #a8a6a1;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  float: right;
+}
+
+.desserts-btt:hover {
+  text-decoration: none;
+  opacity: .7;
+  color: #a8a6a1;
+}
+
+.footer-img {
+  width: 100%;
+  height: 65vh;
+  margin-top: 75px;
+}
+
+.grey-container {
+  height: 30vh;
+  width: 100%;
+  background-color: #22262a;
+}
+
+.first-row {
+  padding-top: 20px;
+}
+
+.first-row .ft-menu {
+  color: white;
+  font-weight: lighter;
+}
+
+.first-row .ft-menu:hover {
+  text-decoration: none;
+  color: #a8a6a1;
+}
+
+.second-row {
+  padding-top: 20px;
+}
+
+.third-row {
+  padding-top: 30px;
+}
+
+.third-row .ft-reserv {
+  color: white;
+  font-weight: lighter;
+}
+
+.third-row .ft-reserv:hover {
+  text-decoration: none;
+  color: #a8a6a1;
+}
+
+@media (max-width: 1030px) {
+  .dish-img {
+    height: 300px;
+    width: 450px;
+  }
+  .contact-btt {
+    font-size: 45px;
+  }
+  .drink-img {
+    height: 550px;
+    width: 350px;
+  }
+  .desserts-btt {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 690px) {
+  .menu-wrapper .rest-name {
+    font-size: 22px;
+  }
+  .menu-wrapper .nav-link {
+    font-size: 14px;
+  }
+  .menu-wrapper .reserv {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  section .second-sec {
+    margin-top: 400px;
+  }
+  main .main-paragraph {
+    font-size: 22px;
+    margin: 150px 35px 75px 35px;
+  }
+}
+
+@media (max-width: 860px) {
+  .second-sec {
+    margin-top: 300px;
+  }
+  .dish-img {
+    height: 275px;
+    width: 450px;
+    margin-top: 35px;
+  }
+  .contact-btt {
+    font-size: 35px;
+  }
+  .drink-img {
+    height: 500px;
+    width: 350px;
+  }
+  .desserts-btt {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 445px) {
+  .menu-wrapper .rest-name {
+    font-size: 15px;
+  }
+  .menu-wrapper .nav-link {
+    font-size: 11px;
+    margin: -10px;
+  }
+  .menu-wrapper .reserv {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  main .main-paragraph {
+    font-size: 18px;
+    margin: 85px 35px 50px 35px;
+  }
+  section .second-sec {
+    margin-top: 425px;
+  }
+  .dish-img {
+    height: 275px;
+    width: 400px;
+    margin-top: 35px;
+    margin-left: -25px;
+  }
+  .contact-btt {
+    font-size: 35px;
+  }
+  .drink-img {
+    height: 500px;
+    width: 350px;
+  }
+  .desserts-btt {
+    font-size: 35px;
+  }
+  .footer-img {
+    height: 40vh;
+  }
+  .grey-container {
+    height: 32vh;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 395px) {
+  .menu-wrapper .rest-name {
+    font-size: 14px;
+  }
+  .menu-wrapper .nav-link {
+    font-size: 10px;
+    margin: -10px;
+  }
+  .menu-wrapper .reserv {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  .grey-container {
+    height: 35vh;
+    font-size: 11px;
+  }
+  .dish-img {
+    height: 250px;
+    width: 350px;
+    margin-top: 35px;
+  }
+  main .main-paragraph {
+    margin: 65px 35px 30px 35px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
