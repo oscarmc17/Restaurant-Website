@@ -276,4 +276,14 @@
     margin: 65px 35px 30px 35px;
   }
 }
+
+@media (max-width: 812px) and (orientation: landscape) {
+  main .main-paragraph {
+    font-size: 22px;
+    margin: 85px 35px 50px 35px;
+  }
+  .grey-container {
+    height: 55vh;
+  }
+}
 /*# sourceMappingURL=main.css.map */
