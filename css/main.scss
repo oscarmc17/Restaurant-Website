@@ -53,7 +53,6 @@ $smiphone-brk: 395px;
 .main-pic {
     width: 100%;
     padding: 0 20px;
-    height: 75vh;
 }
 
 .main-paragraph {
@@ -64,7 +63,6 @@ $smiphone-brk: 395px;
 }
 
 .dish-img {
-    height: 400px;
     width: 550px;
     padding-left: 50px;
     margin-top: 50px;
@@ -84,7 +82,6 @@ $smiphone-brk: 395px;
 }
 
 .drink-img {
-    height: 650px;
     width: 450px;
     float: right;
     padding-right: 50px;
@@ -108,10 +105,10 @@ $smiphone-brk: 395px;
     width: 100%;
     height: 65vh;
     margin-top: 75px;
+    object-fit: cover;
 }
 
 .grey-container{
-    height: 30vh;
     width: 100%;
     background-color: #22262a;
 }
@@ -151,7 +148,6 @@ $smiphone-brk: 395px;
 
 @media (max-width: $medium-breakpoint) {
     .dish-img {
-        height: 300px;
         width: 450px;
     }
 
@@ -160,7 +156,6 @@ $smiphone-brk: 395px;
     }
 
     .drink-img {
-        height: 550px;
         width: 350px;
     }
 
@@ -199,7 +194,6 @@ $smiphone-brk: 395px;
     }
 
     .dish-img {
-        height: 275px;
         width: 450px;
         margin-top: 35px; 
     }
@@ -209,7 +203,6 @@ $smiphone-brk: 395px;
     }
 
     .drink-img {
-        height: 500px;
         width: 350px;
     }
 
@@ -243,7 +236,6 @@ $smiphone-brk: 395px;
     }
 
     .dish-img {
-        height: 275px;
         width: 400px;
         margin-top: 35px;
         margin-left: -25px;
@@ -254,7 +246,6 @@ $smiphone-brk: 395px;
     }
 
     .drink-img {
-        height: 500px;
         width: 350px;
     }
 
@@ -264,10 +255,10 @@ $smiphone-brk: 395px;
 
     .footer-img {
         height: 40vh;
+        object-fit: cover;
     }
 
     .grey-container {
-        height: 32vh;
         font-size: 12px;
     }
 }
@@ -288,14 +279,11 @@ $smiphone-brk: 395px;
     }
     
     .grey-container {
-        height: 35vh;
         font-size: 11px;
     }
 
     .dish-img {
-        height: 250px;
         width: 350px;
-        margin-top: 35px;
     }
 
     main .main-paragraph {
@@ -307,9 +295,5 @@ $smiphone-brk: 395px;
     main .main-paragraph {
         font-size: 22px;
         margin: 85px 35px 50px 35px;
-    }
-
-    .grey-container {
-        height: 55vh;
     }
 }
